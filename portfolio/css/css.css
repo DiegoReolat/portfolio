@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:20%;
+    border:2px solid red;
+}
+main{
+    position: absolute;
+    top: 20%;
+}
+nav{
+    margin-left:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:lightgray;
+}
+header>h4{
+    position: absolute;
+    left:0;
+}
+header>nav{
+    position: absolute;
+    right:0;
+}
+
+/* dejar lista principal */
+
+.invisible{
+    display: none;
+}
+.invisible2{
+    display: none;
+}
+ul>li:hover a{
+    color:red;
+}
+ul>li:hover .invisible{
+    display: block;
+}
+ul>li>ul>li:hover .invisible2{
+    display: block;
+}
