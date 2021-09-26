@@ -2,6 +2,11 @@
     margin:0;
     padding:0;
 }
+main{
+    position: absolute;
+    top: 20%;
+}
+
 header{
     position: absolute;
     top:0;
@@ -10,12 +15,23 @@ header{
     height:20%;
     border:2px solid red;
 }
-main{
-    position: absolute;
-    top: 20%;
-}
 nav{
-    margin-left:0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: green;
+}
+h4{
+    position: absolute;
+    top:10%;
+}
+#enlaces>li{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    background-color: gray;
 }
 li{
     list-style: none;
@@ -24,14 +40,7 @@ a{
     text-decoration: none;
     color:lightgray;
 }
-header>h4{
-    position: absolute;
-    left:0;
-}
-header>nav{
-    position: absolute;
-    right:0;
-}
+
 
 /* dejar lista principal */
 
