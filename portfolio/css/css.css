@@ -4,7 +4,7 @@
 }
 main{
     position: absolute;
-    top: calc(20% + 1%);
+    top: calc(30% + 1%);
     width: 89.99%;
     left: 5%;
     border: 1px solid green;
@@ -12,12 +12,21 @@ main{
 }
 header{
     position: absolute;
-    top:0;
-    left:0;
-    width: 99.5%;
-    height:10%;
-    border:2px solid red;
+    height: 30%;
+    width:100%;
+    background-image: url("../img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
 }
+.portada{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color:midnightblue;
+    font-size: 2em;
+}
+
 /* si no consigo alinear, quitar height y padding */
 .menu1{
     display: inline-block;
@@ -26,6 +35,7 @@ header{
     width: 33%;
     background-color: gray;
     text-align: center;
+    padding: 1.5%;
 }
 .menu2{
     display: inline-block;
@@ -35,6 +45,7 @@ header{
     left:33%;
     background-color: gray;
     text-align: center;
+    padding: 1.5%;
 }
 .menu3{
     display: inline-block;
@@ -44,6 +55,7 @@ header{
     left:66%;
     background-color: gray;
     text-align: center;
+    padding: 1.5%;
 }
 .submenu1{
     display: none;
@@ -63,4 +75,8 @@ header{
 }
 .submenu2:hover .subsubmenu{
     display: block;
+}
+a{
+    text-decoration: none;
+    color:white;
 }
