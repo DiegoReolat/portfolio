@@ -1,3 +1,13 @@
+/*
+colores a usar:
+
+#70727D
+#7A7F87
+#6D6F70
+#7A8687
+#707D7A
+ */
+
 *{
     margin:0;
     padding:0;
@@ -14,17 +24,19 @@ header{
     position: absolute;
     height: 30%;
     width:100%;
-    background-image: url("../img/sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg");
+    background-image: url("../img/siyan-ren-5cwPfMLqYs0-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    z-index:-2;
 }
 .portada{
     position: absolute;
     top: 40%;
     width: 100%;
     text-align: center;
-    color:midnightblue;
-    font-size: 2em;
+    color:#70727D;
+    font-size: 1.25em;
+    z-index: -1;
 }
 
 /* si no consigo alinear, quitar height y padding */
@@ -33,7 +45,7 @@ header{
     position: fixed;
     top:0;
     width: 33%;
-    background-color: gray;
+    background-color: #7A7F87;
     text-align: center;
     padding: 1.5%;
 }
@@ -43,7 +55,7 @@ header{
     top:0;
     width: 33%;
     left:33%;
-    background-color: gray;
+    background-color: #7A7F87;
     text-align: center;
     padding: 1.5%;
 }
@@ -53,7 +65,7 @@ header{
     top:0;
     width: 33%;
     left:66%;
-    background-color: gray;
+    background-color: #7A7F87;
     text-align: center;
     padding: 1.5%;
 }
@@ -78,5 +90,5 @@ header{
 }
 a{
     text-decoration: none;
-    color:white;
+    color: whitesmoke;
 }
