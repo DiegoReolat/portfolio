@@ -8,6 +8,14 @@ colores a usar:
 #707D7A
  */
 
+/*
+fuentes:
+ */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+
+
 *{
     margin:0;
     padding:0;
@@ -26,7 +34,7 @@ header{
     background-image: url("../img/siyan-ren-5cwPfMLqYs0-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    z-index:-2;
+    z-index:1;
 }
 .portada{
     position: absolute;
@@ -35,7 +43,6 @@ header{
     text-align: center;
     color:#70727D;
     font-size: 1.25em;
-    z-index: -1;
 }
 
 /* si no consigo alinear, quitar height y padding */
@@ -99,13 +106,28 @@ a{
     background-color: #70727D;
     color:whitesmoke;
 }
+.aboutMe{
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2, h1{
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1{
+    font-size: 1.75em;
+}
+
 h3{
     color: cornflowerblue;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    margin-left:1.5em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:25px;
+    font-size: 1.5em;
 }
 p{
-    margin-left: 1em;
-    margin-right: .75em;
+    margin-left: 25px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
 }
