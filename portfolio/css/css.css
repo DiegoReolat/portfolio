@@ -6,7 +6,7 @@ colores a usar:
 #6D6F70
 #7A8687
 #707D7A
- */
+*/
 
 /*
 fuentes:
@@ -15,9 +15,9 @@ fuentes:
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 /* bitter */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Source+Code+Pro:wght@200&display=swap');
-
-
-
+/*
+ pagina
+ */
 *{
     margin:0;
     padding:0;
@@ -161,18 +161,21 @@ figure{
     width:33%;
     top:0;
 }
-#logros{
+.logros{
     position: absolute;
     top:150%;
     width: 33%;
     border:2px solid red;
     text-align: center;
 }
-#logros>img{
+.logros>img{
     width:100%;
     height: 40vh;
 }
-#fortalezas{
+#h3logros{
+    color:lightgreen;
+}
+.fortalezas{
     position: absolute;
     top:150%;
     left:33%;
@@ -180,11 +183,14 @@ figure{
     border:2px solid red;
     text-align: center;
 }
-#fortalezas>img{
+.fortalezas>img{
     width: 100%;
     height: 40vh;
 }
-#objetivos{
+#h3fortalezas{
+   color:lightblue;
+}
+.objetivos{
     position: absolute;
     top:150%;
     left:66%;
@@ -192,7 +198,10 @@ figure{
     border:2px solid red;
     text-align: center;
 }
-#objetivos>img{
+.objetivos>img{
     width:100%;
     height: 40vh;
+}
+#h3objetivos{
+    color:darkmagenta;
 }
