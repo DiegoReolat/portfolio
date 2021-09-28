@@ -22,6 +22,9 @@ fuentes:
     margin:0;
     padding:0;
 }
+body{
+    background-color: whitesmoke;
+}
 main{
     position: absolute;
     top: calc(30% + 1%);
@@ -135,4 +138,46 @@ h2#cualidades{
     font-family: 'Bitter', serif;
     color:whitesmoke;
 
+}
+.cualidades{
+    font-family: 'Bitter', serif;
+    position: relative;
+}
+figure{
+    position: relative;
+    display: inline-block;
+    width:33%;
+    top:0;
+}
+#logros{
+    position: absolute;
+    top:150%;
+    width: 33%;
+    border:2px solid red;
+}
+#logros>img{
+    width:100%;
+    height: 40vh;
+}
+#fortalezas{
+    position: absolute;
+    top:150%;
+    left:33%;
+    width: 33%;
+    border:2px solid red;
+}
+#fortalezas>img{
+    width: 100%;
+    height: 40vh;
+}
+#objetivos{
+    position: absolute;
+    top:150%;
+    left:66%;
+    width: 33%;
+    border:2px solid red;
+}
+#objetivos>img{
+    width:100%;
+    height: 40vh;
 }
