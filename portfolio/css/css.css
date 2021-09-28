@@ -11,8 +11,10 @@ colores a usar:
 /*
 fuentes:
  */
+/* source code pro*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
-
+/* bitter */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Source+Code+Pro:wght@200&display=swap');
 
 
 
@@ -99,7 +101,7 @@ a{
     color: whitesmoke;
 }
 
-.intro{
+.titulo{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -110,9 +112,6 @@ a{
     font-family: 'Source Code Pro', monospace;
 }
 
-h2, h1{
-    font-family: 'Source Code Pro', monospace;
-}
 
 h1{
     font-size: 1.75em;
@@ -130,4 +129,10 @@ p{
     margin-right: 18px;
     margin-bottom: 20px;
     font-size: 1.1em;
+}
+
+h2#cualidades{
+    font-family: 'Bitter', serif;
+    color:whitesmoke;
+
 }
