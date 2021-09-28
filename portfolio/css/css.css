@@ -30,7 +30,7 @@ main{
     top: calc(30% + 1%);
     width: 89.99%;
     left: 5%;
-    border: 1px solid green;
+    border: 3px solid blanchedalmond;
 }
 header{
     position: absolute;
