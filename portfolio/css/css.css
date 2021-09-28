@@ -49,7 +49,9 @@ header{
     color:#70727D;
     font-size: 1.25em;
 }
-
+nav a:hover{
+    color:blanchedalmond;
+}
 /* si no consigo alinear, quitar height y padding */
 .menu1{
     display: inline-block;
@@ -59,6 +61,9 @@ header{
     background-color: #7A7F87;
     text-align: center;
     padding: 1.5%;
+}
+.menu1:hover{
+    background-color: #6D6F70;;
 }
 .menu2{
     display: inline-block;
@@ -70,6 +75,10 @@ header{
     text-align: center;
     padding: 1.5%;
 }
+.menu2:hover{
+    background-color: #6D6F70;;
+    z-index:2;
+}
 .menu3{
     display: inline-block;
     position: fixed;
@@ -79,6 +88,9 @@ header{
     background-color: #7A7F87;
     text-align: center;
     padding: 1.5%;
+}
+.menu3:hover{
+    background-color: #6D6F70;;
 }
 .submenu1{
     display: none;
@@ -154,6 +166,7 @@ figure{
     top:150%;
     width: 33%;
     border:2px solid red;
+    text-align: center;
 }
 #logros>img{
     width:100%;
@@ -165,6 +178,7 @@ figure{
     left:33%;
     width: 33%;
     border:2px solid red;
+    text-align: center;
 }
 #fortalezas>img{
     width: 100%;
@@ -176,6 +190,7 @@ figure{
     left:66%;
     width: 33%;
     border:2px solid red;
+    text-align: center;
 }
 #objetivos>img{
     width:100%;
