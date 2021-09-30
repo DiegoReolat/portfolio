@@ -24,6 +24,8 @@ fuentes:
 }
 body{
     background-color: whitesmoke;
+    background-image: url("../img/shapelined-_JBKdviweXI-unsplash.jpg");
+    z-index: -3;
 }
 main{
     position: absolute;
@@ -31,6 +33,8 @@ main{
     width: 89.99%;
     left: 5%;
     border: 3px solid blanchedalmond;
+    z-index:3;
+    background-color: whitesmoke;
 }
 header{
     position: absolute;
@@ -39,7 +43,7 @@ header{
     background-image: url("../img/siyan-ren-5cwPfMLqYs0-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    z-index:1;
+    z-index:1000;
 }
 .portada{
     position: absolute;
@@ -49,6 +53,25 @@ header{
     color:#70727D;
     font-size: 1.25em;
 }
+figure{
+    position: relative;
+    display: inline-block;
+    width:33%;
+    top:0;
+    z-index:5;
+    background-color: whitesmoke;
+    border:2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+figure>img{
+    width: 75%;
+    height: 30vh;
+    margin-top:15%;
+    border: 4px solid blanchedalmond;
+    border-radius:20px;
+}
+
 nav a:hover{
     color:blanchedalmond;
 }
@@ -157,22 +180,13 @@ h2#cualidades{
     font-family: 'Bitter', serif;
     position: relative;
 }
-figure{
-    position: relative;
-    display: inline-block;
-    width:33%;
-    top:0;
-}
+
 .logros{
     position: absolute;
     top:150%;
     width: 30%;
     border:2px solid red;
     text-align: center;
-}
-.logros>img{
-    width:100%;
-    height: 40vh;
 }
 #h3logros{
     color:limegreen;
@@ -182,12 +196,7 @@ figure{
     top:150%;
     left:34%;
     width: 32%;
-    border:2px solid red;
     text-align: center;
-}
-.fortalezas>img{
-    width: 100%;
-    height: 40vh;
 }
 #h3fortalezas{
    color:darkblue;
@@ -197,13 +206,9 @@ figure{
     top:150%;
     left:69%;
     width: 30%;
-    border:2px solid red;
     text-align: center;
 }
-.objetivos>img{
-    width:100%;
-    height: 40vh;
-}
+
 #h3objetivos{
     color:darkmagenta;
 }
