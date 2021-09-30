@@ -151,7 +151,7 @@ p{
 h2#cualidades{
     font-family: 'Bitter', serif;
     color:whitesmoke;
-
+    font-size: 40px;
 }
 .cualidades{
     font-family: 'Bitter', serif;
@@ -166,7 +166,7 @@ figure{
 .logros{
     position: absolute;
     top:150%;
-    width: 33%;
+    width: 30%;
     border:2px solid red;
     text-align: center;
 }
@@ -180,8 +180,8 @@ figure{
 .fortalezas{
     position: absolute;
     top:150%;
-    left:33%;
-    width: 33%;
+    left:34%;
+    width: 32%;
     border:2px solid red;
     text-align: center;
 }
@@ -195,8 +195,8 @@ figure{
 .objetivos{
     position: absolute;
     top:150%;
-    left:66%;
-    width: 33%;
+    left:69%;
+    width: 30%;
     border:2px solid red;
     text-align: center;
 }
@@ -207,11 +207,14 @@ figure{
 #h3objetivos{
     color:darkmagenta;
 }
-
 figcaption>h3{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
+    margin-top: 40px;
 }
 figcaption>p{
+    text-align: center;
     font-weight: bold;
+    font-size: 17px;
+    line-height:29px;
 }
