@@ -134,8 +134,8 @@ h1{
 
 h3{
     color: cornflowerblue;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 25px;
     margin-left:25px;
     font-size: 1.5em;
 }
@@ -143,8 +143,9 @@ p{
     margin-left: 25px;
     margin-right: 18px;
     margin-bottom: 20px;
-    font-size: 1.1em;
+    font-size: 17px;
     line-height: 30px;
+    font-weight: bold;
 }
 
 h2#cualidades{
@@ -174,7 +175,7 @@ figure{
     height: 40vh;
 }
 #h3logros{
-    color:lightgreen;
+    color:limegreen;
 }
 .fortalezas{
     position: absolute;
@@ -189,7 +190,7 @@ figure{
     height: 40vh;
 }
 #h3fortalezas{
-   color:lightblue;
+   color:darkblue;
 }
 .objetivos{
     position: absolute;
@@ -205,4 +206,12 @@ figure{
 }
 #h3objetivos{
     color:darkmagenta;
+}
+
+figcaption>h3{
+    font-size: 35px;
+    text-align: center;
+}
+figcaption>p{
+    font-weight: bold;
 }
