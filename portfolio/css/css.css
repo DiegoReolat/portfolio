@@ -52,7 +52,7 @@ header{
     width: 100%;
     text-align: center;
     color:#70727D;
-    font-size: 1.25em;
+    font-size: 23px;
 }
 figure{
     position: relative;
@@ -73,6 +73,7 @@ figure>img{
     border-radius:20px;
 }
 
+
 nav a:hover{
     color:blanchedalmond;
 }
@@ -87,7 +88,7 @@ nav a:hover{
     padding: 1.5%;
 }
 .menu1:hover{
-    background-color: #6D6F70;;
+    background-color: #6D6F70;
 }
 .menu2{
     display: inline-block;
@@ -144,16 +145,12 @@ a{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-size: 26px;
     background-color: #70727D;
     color:whitesmoke;
 }
 .aboutMe{
     font-family: 'Source Code Pro', monospace;
-}
-
-
-h1{
-    font-size: 1.75em;
 }
 
 h3{
@@ -187,7 +184,6 @@ h2#cualidades{
     position: absolute;
     top:150%;
     width: 30%;
-    border: 2px solid darkgrey;
     text-align: center;
 }
 #h3logros{
@@ -210,7 +206,32 @@ h2#cualidades{
     width: 30%;
     text-align: center;
 }
-
+@media (max-width: 920px){
+    .cualidades{
+        position: absolute;
+        width:100%;
+    }
+    .logros{
+        position: relative;
+        width:90%;
+        display: inline-block;
+        left:0;
+    }
+    .fortalezas{
+        position: relative;
+        width:90%;
+        display: inline-block;
+        margin: 0 0 0 0;
+        left:0;
+    }
+    .objetivos{
+        position: relative;
+        width:90%;
+        display: inline-block;
+        margin: 0 0 0 0;
+        left:0;
+    }
+}
 #h3objetivos{
     color:darkmagenta;
 }
@@ -226,20 +247,20 @@ figcaption>p{
     line-height:29px;
 }
 .logros:hover{
-    border: 2px solid limegreen;
+    border: 3px solid limegreen;
 }
 .fortalezas:hover{
-    border: 2px solid darkblue;
+    border: 3px solid darkblue;
 }
 .objetivos:hover{
-    border: 2px solid darkmagenta;
+    border: 3px solid darkmagenta;
 }
 .objetivos:hover img{
-    border: 4px solid darkslategrey;
+    border: 4px solid #6D6F70;
 }
 .fortalezas:hover img{
-    border: 4px solid darkslategrey;
+    border: 4px solid #6D6F70;
 }
 .logros:hover img{
-    border: 4px solid darkslategrey;
+    border: 4px solid #6D6F70;
 }
