@@ -61,7 +61,7 @@ figure{
     top:0;
     z-index:5;
     background-color: whitesmoke;
-    border:2px solid red;
+    border: 2px solid ;
     border-radius: 10px;
     text-align: center;
 }
@@ -69,7 +69,7 @@ figure>img{
     width: 75%;
     height: 30vh;
     margin-top:15%;
-    border: 4px solid blanchedalmond;
+    border: 4px solid darkgrey;
     border-radius:20px;
 }
 
@@ -187,7 +187,7 @@ h2#cualidades{
     position: absolute;
     top:150%;
     width: 30%;
-    border:2px solid red;
+    border: 2px solid darkgrey;
     text-align: center;
 }
 #h3logros{
@@ -233,4 +233,13 @@ figcaption>p{
 }
 .objetivos:hover{
     border: 2px solid darkmagenta;
+}
+.objetivos:hover img{
+    border: 4px solid darkslategrey;
+}
+.fortalezas:hover img{
+    border: 4px solid darkslategrey;
+}
+.logros:hover img{
+    border: 4px solid darkslategrey;
 }
