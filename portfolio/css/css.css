@@ -215,21 +215,21 @@ h2#cualidades{
         position: relative;
         width:90%;
         display: inline-block;
-        left:0;
+        left:5%;
     }
     .fortalezas{
         position: relative;
         width:90%;
         display: inline-block;
         margin: 0 0 0 0;
-        left:0;
+        left:5%;
     }
     .objetivos{
         position: relative;
         width:90%;
         display: inline-block;
         margin: 0 0 0 0;
-        left:0;
+        left:5%;
     }
 }
 #h3objetivos{
